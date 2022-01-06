@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#specific{
+    color: #fc4462;
+}
+#another{
+    color: rgb(241, 75, 247);
+}
+#head{
+    font-size: 60px;
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, crimson, rgb(245, 141, 129));
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.focus{
+    display: flex;
+    padding-bottom: 30px;
+}
+.focused{
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 3%;
+    padding-top: 40px;
+}
+.button{
+    background-color: rgb(243, 113, 99);
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 4px;
+    border-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.focused img {
+    width: 400px;
+}
+#scroll{
+    margin: 55px 90px;
+}
+#mission-line{
+    font-size: 45px;
+    color: rgb(4, 4, 82);
+    text-align: center;
+    font-family: cursive;
+}
+.my-mission{
+    display: flex;
+}
+.container{
+    width: 22%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.container img{
+    width: 150px;
+}
+.container h2{
+    color: rgb(4, 4, 82);
+}
+#miss{
+    background-color:rgb(227, 195, 228);   
+}
+#vision{
+    background-color: rgb(192, 252, 243);
+}
+#goal{
+    background-color: rgb(245, 186, 213);
+}
